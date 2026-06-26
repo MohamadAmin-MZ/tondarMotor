@@ -1,14 +1,12 @@
 # 🏍️ TondarMotor – Backend API
 
- **From "learning backend" to "real interaction"** – this is the project where I finally connected a real frontend to a real backend.  
- Built with Node.js, Express, and MongoDB.
+ **From "learning backend" to "real interaction"** – A RESTful backend API for a motorcycle marketplace built with Node.js, Express, and MongoDB.
 
 ---
 
 ## What this is (and what it isn't)
 
 **TondarMotor** is a RESTful API for a motorcycle marketplace. It handles products, articles, authentication, and admin controls.  
-But more importantly – **it's the project where I learned how to work with a frontend team.**
 
 Unlike my previous project (`SabzCourse`), which was purely for practicing backend concepts, this one was built with a **real frontend in mind**. I designed the endpoints, error responses, and data flow so that a frontend developer could actually use them.
 
@@ -22,7 +20,7 @@ Unlike my previous project (`SabzCourse`), which was purely for practicing backe
 ## ✨ Key Features
 
 - **JWT Authentication** – Register, login, and protected routes with role-based access (user/admin).
-- **Product Management** – Full CRUD with **search, filtering, and categorization** – because the frontend needed it.
+- **Product Management** – Full CRUD with **search, filtering, and categorization**.
 - **Article System** – Blog-like articles with cover images.
 - **User Ban System** – Admins can ban/unban users.
 - **MVC Architecture** – Clean separation of concerns.
@@ -34,8 +32,8 @@ Unlike my previous project (`SabzCourse`), which was purely for practicing backe
 
 - **Node.js + Express** – For building RESTful endpoints that the frontend could easily call.
 - **MongoDB + Mongoose** – For flexible data modeling and relationships.
-- **JWT + bcrypt** – For authentication that the frontend could integrate with.
-- **multer** – For handling file uploads from the frontend.
+- **JWT + bcrypt** – For authentication.
+- **multer** – For handling multipart file uploads.
 
 ---
 
@@ -70,7 +68,7 @@ Unlike my previous project (`SabzCourse`), which was purely for practicing backe
 - **How to communicate with a frontend developer** – understanding their needs and adjusting the API accordingly.
 - **How to test endpoints with Postman** before the frontend was even ready.
 
-> 💡 **What made this project different for me:** This time, I had to think about how the frontend would consume the API – pagination, error messages, consistent responses. I even used Postman to test every endpoint before the frontend was ready.
+> 💡 **What made this project different for me:** This time, I had to think about how the frontend would consume the API – pagination, error messages, consistent responses.
 
 ---
 
